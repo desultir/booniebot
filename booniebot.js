@@ -8,15 +8,15 @@ var http = require('http');
 var util = require('util');
 
 
-var API_KEY = 'a7dab3ac2f776523f7837bf8112c6d';
-var SYDNEY_ROOM_ID = 11;
+var API_KEY = '<setme>';
+var MAIN_ROOM_ID = 11;
 var TEST_ROOM_ID = 3;
-hipchat.prototype.host = 'stigchat.qualcomm.com';
+hipchat.prototype.host = 'api.hipchat.com';
 
 var HC = new hipchat(API_KEY);
 
 function postResult(debug) {
-  var params = { from: 'BoonieBot', room_id: debug ? TEST_ROOM_ID : SYDNEY_ROOM_ID };
+  var params = { from: 'BoonieBot', room_id: debug ? TEST_ROOM_ID : MAIN_ROOM_ID };
 
   getMatches(params);
 }
