@@ -1,0 +1,28 @@
+{
+  "name": "BoonieBot",
+  "version": "0.1.0",
+  "description": "A BOONIE HipChat Bot",
+  "main": "booniebot.js",
+  "dependencies": {
+    "lodash": "3.3.0",
+    "moment": "2.8.3",
+    "node-getopt": "0.2.3",
+    "node-hipchat": "0.4.5",
+    "xml2js": "0.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.qualcomm.com/tdm/booniebot.git"
+  },
+  "keywords": [
+    "boonie",
+    "hipchat"
+  ],
+  "author": "TDM <tdm@qualcomm.com>",
+  "license": "Qualcomm Technologies Inc. All Rights Reserved.",
+  "private": "true"
+}
