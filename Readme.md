@@ -16,6 +16,11 @@ Usage: node booniebot.js
   -o, --onetime       Skip scheduling. Only post one time, now
 ```
 
+### Get started
+
+Create an api key on your hipchat instance, drop it into the api_key var in booniebot, and you're away.
+
+
 ### Scheduling
 
 Booniebot is self-scheduling, so there's no need to create a cron job. To start a background task from an ssh session, use the following command:
