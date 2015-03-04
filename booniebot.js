@@ -45,12 +45,6 @@ function getMatches(params) {
       path: '/cricbuzz/series/flash_schedule/wc2015.php'
     };
 
-    var hc_options = {
-      host: 'synd.criybuzz.com',
-      port: 80,  
-      path: '/cricbuzz/series/flash_schedule/wc2015.php'
-    };
-
     var today = new Date();
     var month = today.getMonth() + 1;
     if (month < 10) {
